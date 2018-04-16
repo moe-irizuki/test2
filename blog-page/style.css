@@ -1,0 +1,52 @@
+header.logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.menu{
+    position: absolute;
+    top: 70px;
+    left: 0.5%;
+    width: 99%;
+    height: 3em;
+    background-color: darkgoldenrod;
+}
+.menu ul li{float: left;
+    list-style: none;
+    margin-right: 2em;
+    color: white;
+}
+.left{float: left;
+    width: 70%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.left h1{margin-top: 80px;
+    border-bottom: 2px solid black;
+    border-left: 3px solid black;
+}
+.contents{
+    background-color: antiquewhite;
+}
+.contents img{
+    margin-left: 10px;
+}
+.right{float: left;
+    width: 30%;
+    margin-bottom: 50px;
+}
+.right h2{margin-top: 80px;
+    border-bottom: 2px dotted brown;
+}
+footer{clear: left;
+    position: fixed;
+    bottom: 0px;
+    left: 0.5%;
+    width: 99%;
+    height: 30px;
+    background-color: darkgoldenrod;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    line-height: 30px;
+}
