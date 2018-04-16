@@ -1,0 +1,103 @@
+header .img{position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.menu{position: absolute;
+  top:70px;
+  left:0px;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+
+.menu ul li{
+  float: left;
+  list-style: none;
+  padding-right: 4em;
+  line-height: 10px;
+  font-size: 15px;
+}
+
+.contents{position: absolute;
+  top: 100px;
+  left: 0px;
+  width: 100%;
+    height: 900px;
+}
+
+.left{float: left;
+  width: 70%;
+  height: 600px;
+  background-color: white;
+}
+
+.left h1{
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  border-left: 3px solid black;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+.nf{
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  margin-left: 5px;
+  background-color: #FAFAFA;
+}
+
+.nf h3{
+    border-left: 4px solid red;
+    padding-left: 10px;
+}
+
+.nf .submit{
+    background-color: gray;
+    color: black;
+}
+
+.kiji{
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #FAFAFA;
+}
+
+.kiji h3{
+    border-bottom: 2px solid lightgray;
+    margin: 5px;
+}
+
+.right{float: right;
+  padding-top: 20px;
+  width: 30%;
+  height: 600px;
+  background-color: white;
+}
+
+.right h3{
+  margin-left: 5px;
+  padding-left: 5px;
+  border-bottom: 3px dotted black;
+  font-size: 15px;
+}
+
+.right p{
+  line-height: 12px;
+  margin-left: 15px;
+  font-size: 10px;
+}
+  
+
+footer{clear: left;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
