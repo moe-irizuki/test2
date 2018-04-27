@@ -1,0 +1,99 @@
+.logo{position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+}
+
+.logo img.example {
+width: 200px;
+height: 50px;
+}
+
+.menu{position: absolute;
+  top: 70px;
+  left: 0.5%;
+  width: 99%;
+  height: 39px;
+  font-size: 5px;
+  background-color: black;
+}
+
+.menu ul li{float: left;
+  color: white;
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+main{
+  clear: both;
+}
+
+.main-container{
+  margin-top: 120px;
+}
+
+.left{
+  float: left;
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+.left h2{
+  border-bottom: 2px solid black;
+  border-left: 4px solid black;
+  font-size: 15px;
+}
+
+
+p{
+  font-size: 5px;
+}
+
+.left img.example1{
+  width: 100%;
+  height: 46.7%;
+}
+.contents img{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  
+}
+
+.box1{
+  float: left;
+  text-align: center;
+  background-color: lightgray;
+}
+.box1 p{
+  line-height: 0px;
+}
+.right{
+  float: right;
+  width: 25%;
+  margin-top: 0px;
+}
+.right h2 p{
+  float: left;
+}
+.right h2{
+  border-bottom: 2px dotted gray;
+  font-size: 13px;
+}
+}
+li{ 
+  list-style: none;
+}
+
+footer{clear: both;
+  position: fixed;
+  bottom: 0px;
+  left: 0.5%;
+  width: 99%;
+  height:39px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  line-height: 4em;
+  font-size: 5px
+}
